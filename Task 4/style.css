@@ -1,0 +1,190 @@
+header{
+    background-color: rgb(166, 228, 22);
+    display: flex;
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+
+}
+.logo{
+    font-size: 1.5rem;
+     font-weight: bold;
+     color: rgb(134, 10, 20);
+     padding-right: 70rem;
+     padding-top: 1re;
+    }
+.navlist{
+    font-size: 20px;
+     display: flex;
+     gap: 20px;
+     position: relative;
+     margin-left: 750px; 
+     list-style: none;
+     
+    
+}
+body{
+
+     border-radius: 45px 75px;
+    
+}
+
+.button{
+
+    font-size: 20px;
+    height: 40px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    line-height: normal;
+    border: 10px ;
+    cursor: pointer;
+    background-color: rgb(184, 241, 68);
+   margin-left: 150px;
+   margin-top: 60px;
+   
+   
+    
+    
+}
+.homeimg{
+    padding-right: 20rem;
+    padding-bottom: 15rem;
+    justify-content: flex-end;
+    display: flex;
+    float: right;
+    padding-top: 5.5rem;
+    
+  
+
+}
+.hometxt{
+    color: rgb(7, 7, 7)  ;
+    padding-top: 9rem;
+    padding-left: 10rem;
+    font-size: 25px;
+    font-weight: bold;  
+    float: left;  
+}     
+   .home{
+    
+    background-image: url("bgimg1.jfif");
+    background-size: 130% 98.5%;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 100vh;
+    padding-top: rem;
+    flex-wrap: wrap;   
+   }
+
+   /* About  */
+  .h2 {
+    padding-top: 5rem;
+  }
+ 
+/* Product */
+
+.Product {
+  min-height: 80vh;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  
+  text-transform: capitalize;
+  padding: 20px 0;
+ min-width: 100vh;
+  
+}
+ .Product .Containor .Content {
+  padding-bottom: 18rem;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  width: 1200px;
+  align-items: center;
+  margin: auto;
+
+ }
+ 
+ .Product .Containor .Content .img1{
+   
+    padding: 1rem;
+    border-radius: .5rem;
+    box-shadow: 3px 2px 5px 1px red;
+    
+   
+ }
+
+
+  
+ .Product .Containor .Content .img2{
+  
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 3px 2px 5px 1px rgb(180, 123, 249);
+ }
+
+  
+ .Product .Containor .Content .img3{
+ 
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 3px 2px 5px 1px rgb(17, 219, 68);
+
+ }
+  
+ .Product .Containor .Content .img4{
+ 
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 3px 2px 5px 1px rgb(12, 12, 12);
+ 
+ }
+
+ .Product .Containor .Content .img5{
+ 
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 3px 2px 5px 1px rgb(221, 200, 12);
+ 
+ }
+
+ .Product .Containor .Content .img6{
+  
+  padding: 1rem;
+  border-radius: .5rem;
+  box-shadow: 3px 2px 5px 1px rgb(156, 6, 94);
+ 
+ }
+
+.Follow{
+        padding-left: 65rem;
+        padding-top: 24rem;
+     
+      
+     background-image: url("bgimg1.webp");
+    
+
+}
+.Contact {
+    background-image: url("bgimg.webp");
+  }
+
+ 
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
